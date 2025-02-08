@@ -1,0 +1,2 @@
+# PHP Foreach Loop Modification Bug
+This example demonstrates a common error in PHP when modifying an array while iterating over it using a `foreach` loop.  Unsetting elements within the loop can cause the iterator to skip elements unexpectedly, leading to incorrect results.  The solution provides a safe and efficient way to handle this situation.
